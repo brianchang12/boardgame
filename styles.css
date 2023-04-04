@@ -1,0 +1,48 @@
+.draggable {
+    /* Indicate the element draggable */
+    cursor: move;
+    top: 20px;
+
+    /* It will be positioned absolutely */
+    position: absolute;
+    padding: 3px;
+    /* Doesn't allow to select the content inside */
+    user-select: none;
+    
+}
+
+.board {
+    width: 700px;
+    
+}
+
+#dragMe {
+    top: 780px;
+    left: 720px;
+}
+
+#dragMe2 {
+    top: 780px;
+    left: 820px;
+}
+
+#dragMe3 {
+    top: 780px;
+    left: 920px;
+}
+
+#dragMe4 {
+    top: 780px;
+    left: 1020px;
+}
+
+.token {
+    border: 2px;
+    height: 50px;
+    width: 50px;
+    border-color: rgb(9, 9, 9);
+    border-style: solid;
+    border-radius: 50%;
+    user-select: none;
+    cursor: none;
+}
